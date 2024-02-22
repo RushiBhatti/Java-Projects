@@ -99,7 +99,7 @@ class Patient{
         for(Patient pt : p){
             if(pt.getName().equalsIgnoreCase(name)){
                 System.out.println(pt);
-                break;
+                return;
             }
         }
         System.out.println("* No entry exists for this patient..!");
