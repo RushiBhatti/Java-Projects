@@ -1,5 +1,5 @@
 import java.util.* ;
-public class Java9clgLottery {
+public class GuessLotteryNumber {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
