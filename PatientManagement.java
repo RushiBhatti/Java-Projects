@@ -7,7 +7,7 @@ import java.util.Scanner;
 class Patient{
     private String name , mobileNo , address , disease;
     private int priority;
-    public ArrayList<Patient> p = new ArrayList<>();
+    private ArrayList<Patient> p = new ArrayList<>();
 
     public String getName() {
         return name;
