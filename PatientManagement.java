@@ -1,3 +1,5 @@
+package Development;
+
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.Scanner;
@@ -75,6 +77,10 @@ class Patient{
     }
 
     public void removePatient(){
+        if(p.isEmpty()){
+            System.out.println("*No patients for Now..!");
+            return;
+        }
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter Name : ");
         String name = sc.nextLine();
@@ -82,7 +88,7 @@ class Patient{
             if(pt.getName().equals(name)){
                 p.remove(pt);
                 System.out.println(name.toUpperCase() + " removed Successfully...");
-                break;
+                return;
             }
         }
         System.out.println("* No entry exists for this patient..!");
@@ -126,7 +132,7 @@ class PatientPriorityComparator implements Comparator<Patient>{
     }
 }
 
-public class PatientManagement {
+public class HospitalManagement {
 
     static void menu(){
         System.out.println("Options :");
