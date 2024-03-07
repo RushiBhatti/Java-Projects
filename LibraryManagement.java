@@ -121,6 +121,7 @@ public class LibraryManagement {
                         if (ISBN.equals(bArray[i].getISBN())) {
                             update(bArray[i]);
                             flag = true;
+                            System.out.println("Book Updated Successfully...");
                             break;
                         }
                     }
@@ -160,6 +161,7 @@ public class LibraryManagement {
                                 bArray[j] = bArray[j + 1];
                             a--;
                             flag = true;
+                            System.out.println("Book deleted successfully...");
                         }
                     if (!flag)
                         System.out.println("******* Book is not found!");
