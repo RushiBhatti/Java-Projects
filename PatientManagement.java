@@ -144,12 +144,14 @@ public class HospitalManagement {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        menu();
+//        menu();
         int t;
 
         Patient p1 = new Patient();
 
         do{
+            System.out.println("\n--------------------------------------------");
+            menu();
             System.out.println("\n--------------------------------------------");
             System.out.print("\tEnter choice : ");
             int ch = sc.nextInt();
