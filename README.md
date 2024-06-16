@@ -1,22 +1,17 @@
 # Java-Projects
 This repo contains 5 very good java projects created by me.
 
-**You can see the description & execution of each of these projects by clicking on below links:**
-
-- [Bus Ticket Booking System](##Bus_Ticket_Booking_System "see description & output of Bus Ticket Booking System")
-
-- [Guess Lottery Number Game](##Guess_Lottery_Number_Game "see description & output of Guess Lottery Number Game")
-
-- [Library Management System](##Library_Management_System "see description & output of Library Management System")
-
-- [Patient Management System](##Patient_Management_System "see description & output of Patient Management System")
-
+**Description & execution of these projects are given below :**
 
 ## Bus_Ticket_Booking_System 
 
 This program allows users to book and manage bus tickets, showcasing my understanding of arrays, functions, and user interaction in Java.
 
 **See the execution of this project :** https://x.com/RB_Bhatti_171/status/1761320615527506091?t=ciLCq4eVfmwMbM157QFdSw&s=19
+
+## Calc_With_Custom_Exceptions
+
+In this project, I've implemented custom exceptions to improve error handling and provide more informative feedback to the user. The user can enter operands and an operation type (addition, subtraction, multiplication, or division). The calculator then processes the input and displays the result.
 
 ## Guess_Lottery_Number_Game
 
